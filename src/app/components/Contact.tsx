@@ -14,11 +14,11 @@ export default () => {
             </div>
             <br />
             <div className="flex flex-row">
-                <a href="mailto:cleivaj93@gmail.com" target='_blank' className="flex w-1/2 justify-center hover:scale-125">
-                    <Image src={gmailLogo} alt="mailTo" className="w-24" />
+                <a href="mailto:cleivaj93@gmail.com" target='_blank' className="flex w-1/2 justify-center cursor-default">
+                    <Image src={gmailLogo} alt="mailTo" className="w-24 hover:scale-125 cursor-pointer" />
                 </a>
-                <a href="https://www.linkedin.com/in/cesar-leiva/" target='_blank' className="flex w-1/2 justify-center hover:scale-125">
-                    <Image src={linkedinLogo} alt="mailTo" className="w-24" />
+                <a href="https://www.linkedin.com/in/cesar-leiva/" target='_blank' className="flex w-1/2 justify-center cursor-default">
+                    <Image src={linkedinLogo} alt="mailTo" className="w-24 hover:scale-125 cursor-pointer" />
                 </a>
             </div>
         </div>
