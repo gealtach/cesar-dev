@@ -1,10 +1,11 @@
+'use client';
+
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Landing from "./components/Landing";
 import Projects from "./components/Projects";
 import UpperBar from "./components/UpperBar";
 import { Roboto_Mono, Source_Code_Pro } from 'next/font/google';
-
 
 const sourceCodePro = Source_Code_Pro({
   subsets: ['cyrillic'],
@@ -16,7 +17,7 @@ const roboto = Roboto_Mono({
   variable: '--font-roboto'
 });
 
-export default function Home() {
+export default () => {
   return (
     <div className={`flex flex-col text-white bg-black m-4 p-2 ${roboto.variable} ${sourceCodePro.variable}`}>
       <div className="relative"> 

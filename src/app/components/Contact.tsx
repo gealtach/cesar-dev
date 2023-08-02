@@ -3,7 +3,7 @@ import gmailLogo from '../img/gmail-icon-logo-svgrepo-com.svg';
 import linkedinLogo from '../img/linkedin-svgrepo-com.svg';
 export default () => {
     return(
-        <div className="font-text">
+        <div className="font-text bg-bar pt-2 pl-2 pb-3" id="contact">
             <div className="flex flex-col md:items-center">
                 <span className="text-2xl">You can find me here</span>
                 <br />

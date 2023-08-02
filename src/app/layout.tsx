@@ -1,11 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next';
 
-try {
-
-} catch (error) {
-  
-}
 
 export const metadata: Metadata = {
   title: 'Cesar Dev',

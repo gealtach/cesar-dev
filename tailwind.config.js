@@ -15,6 +15,9 @@ module.exports = {
       fontFamily: {
         boton: ['var(--font-roboto)'],
         text: ['var(--font-sourceCodePro)']
+      },
+      colors: {
+        bar: '#313131'
       }
     },
   },
