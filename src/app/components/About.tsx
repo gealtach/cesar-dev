@@ -11,7 +11,7 @@ import socketLogo from '../img/socketio-icon.svg';
 import tailwindLogo from '../img/tailwindcss.svg';
 import Image from 'next/image';
 
-export default () => {
+const About = () => {
     return(
         <div className="font-text py-10 md:pb-20">
             <div className='flex flex-col md:w-1/3 '>
@@ -73,4 +73,6 @@ export default () => {
             </div>
         </div>
     )
-}
+};
+
+export default About;

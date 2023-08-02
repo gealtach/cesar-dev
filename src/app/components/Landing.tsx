@@ -1,7 +1,7 @@
 import manDev from '../img/man-developing.svg';
 import Image from "next/image";
 
-export default () => {
+const Landing = () => {
     return(
         <div className='flex flex-col mt-4 font-text h-screen' data-aos='fade-in' >
             <div className="my-4 flex justify-center hover:scale-150">
@@ -14,4 +14,6 @@ export default () => {
             </span>
         </div>
     )
-}
+};
+
+export default Landing;

@@ -1,7 +1,8 @@
 import Image from "next/image"
 import gmailLogo from '../img/gmail-icon-logo-svgrepo-com.svg';
 import linkedinLogo from '../img/linkedin-svgrepo-com.svg';
-export default () => {
+
+const Contact = () => {
     return(
         <div className="font-text bg-bar pt-2 pl-2 pb-3" id="contact">
             <div className="flex flex-col md:items-center">
@@ -23,4 +24,6 @@ export default () => {
             </div>
         </div>
     )
-}
+};
+
+export default Contact;

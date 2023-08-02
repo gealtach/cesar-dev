@@ -40,7 +40,7 @@ const slides = [
         git: 'https://github.com/gealtach/gealtach'
     }
 ]
-export default () => {
+const Projects = () => {
     const [slide, setSlide] = useState(0);
     const handleRightArrowClick = () => {
         slide === slides.length - 1 ? setSlide(0) : setSlide(slide + 1);
@@ -65,4 +65,6 @@ export default () => {
             </div>
         </div>
     )
-}
+};
+
+export default Projects;
