@@ -1,11 +1,11 @@
-import jsLogo from '../img/javascript-svgrepo-com.svg';
-import expressLogo from '../img/expressjs-icon.svg';
-import gitLogo from '../img/git-svgrepo-com(1).svg';
-import nextLogo from '../img/next-js-seeklogo.com.svg';
-import nodeLogo from '../img/node-js-svgrepo-com.svg';
-import postgreLogo from '../img/postgresql-icon.svg';
-import prismaLogo from '../img/prisma-3.svg';
-import reactLogo from '../img/react-svgrepo-com.svg';
+import jsLogo from "../img/javascript-svgrepo-com.svg";
+import expressLogo from "../img/expressjs-icon.svg";
+import gitLogo from "../img/git-svgrepo-com(1).svg";
+import nextLogo from "../img/next-js-seeklogo.com.svg";
+import nodeLogo from "../img/node-js-svgrepo-com.svg";
+import postgreLogo from "../img/postgresql-icon.svg";
+import prismaLogo from "../img/prisma-3.svg";
+import reactLogo from "../img/react-svgrepo-com.svg";
 import reduxLogo from '../img/redux-svgrepo-com.svg';
 import socketLogo from '../img/socketio-icon.svg';
 import tailwindLogo from '../img/tailwindcss.svg';
@@ -14,8 +14,8 @@ import Image from 'next/image';
 const About = () => {
     return(
         <div className="font-text py-10 md:pb-20">
-            <div className="flex flex-col md:w-1/3 ">
-            <span className="text-3xl">Hi there I'm Cesar.</span>
+            <div className="flex flex-col md:w-1/3">
+            <span className="text-3xl">Hi there I am Cesar.</span>
             <span>
             I am a Full Stack Web developer with experience building web and mobile applications.
             I specialize in JavaScript and experience working with:
