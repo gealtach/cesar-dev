@@ -13,7 +13,7 @@ import Image from 'next/image';
 
 const About = () => {
     return(
-        <div className="font-text py-10 md:pb-20">
+        <div className="font-text py-10 md:pb-20" id="about">
             <div className="flex flex-col md:w-1/3">
             <span className="text-3xl">Hi there I am Cesar.</span>
             <span>
