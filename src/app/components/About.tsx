@@ -16,7 +16,7 @@ const About = () => {
         <div className="font-text py-10 md:pb-20">
             <div className='flex flex-col md:w-1/3 '>
             <span className="text-3xl">Hi there I'm Cesar.</span>
-            <span className=''>
+            <span>
             I am a Full Stack Web developer with experience building web and mobile applications.
             I specialize in JavaScript and experience working with:
             </span>
