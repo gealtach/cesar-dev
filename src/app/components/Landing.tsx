@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Landing = () => {
     return(
-        <div className='flex flex-col mt-4 font-text h-screen' data-aos='fade-in' >
+        <div className='flex flex-col mt-4 font-text h-screen'>
             <div className="my-4 flex justify-center">
                 <Image className='hover:scale-150' src={manDev} alt="dev" height={300} width={300} />
             </div>
