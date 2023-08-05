@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import projectOne from '../img/whatsappClone2.png';
 import projectTwo from '../img/WhatsApp Image 2023-08-01 at 11.30.27 AM(1).jpeg';
-import logo from '../img/logo.svg';
+import logo from '../img/logo100x100.svg';
 import {IoMdArrowDropleftCircle, IoMdArrowDroprightCircle} from 'react-icons/io';
 import { useState } from 'react';
 

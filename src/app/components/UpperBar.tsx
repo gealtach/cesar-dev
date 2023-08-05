@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import logo from '../img/logo.svg';
+import logo from '../img/logo100x100.svg';
 
 
 const UpperBar = () => {
