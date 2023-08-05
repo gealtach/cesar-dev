@@ -52,7 +52,7 @@ const Projects = () => {
     return(
         <div className="font-text mb-3">
             <span className="text-3xl">Projects</span>
-            <div className='my-4 border border-white  p-2 rounded-lg flex flex-col sm:justify-center md:flex-row justify-evenly'>
+            <div className='my-4 border border-white  p-2 rounded-lg flex flex-col sm:items-center md:flex-row justify-evenly'>
                 <Image src={slides[slide].img} alt='p1' className='rounded-lg max-h-fit md:w-1/3' />
                 <div className='flex flex-col my-4 md:w-1/3 items-center justify-center'>
                     <span className='md:text-xl'>{slides[slide].legend}</span>
